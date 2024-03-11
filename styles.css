@@ -1,0 +1,312 @@
+/* General CSS */
+
+#links {
+  background-color: red;
+  overflow: hidden;
+}
+
+.links-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.links-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float: left;
+  left: 50%;
+}
+
+.links-container ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+
+.links-container ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#links ul li a:hover {
+  background-color: maroon;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  width: 1000px;
+  left: 15%;
+  position: relative;
+  text-align: justify;
+}
+
+h3 {
+  color: red;
+  margin-top: 30px;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+.color {
+  color: navy;
+}
+
+/* For Home Page */
+
+.index p {
+  margin: 25px 100px;
+}
+
+
+
+/* For Data Format */
+
+
+
+
+
+
+
+/* For realisitic Research */
+
+.content-container {
+  border: solid;
+  width: 40%;
+  padding: 20px;
+  float: right;
+  margin-top: -107px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.content {
+  height: 550px;
+}
+
+.content-container h2 {
+  margin: 0px;
+}
+
+.content img {
+  width: 40%;
+  margin-top: 40px;
+  height: 300px;
+  margin-left: 50px;
+}
+
+
+.content-paragraph {
+  width: 50%;
+  margin-top: 45px;
+}
+
+#started div {
+  width: 50%;
+}
+
+#started img {
+  float: right;
+  width: 48%;
+  margin-top: -330px;
+  height: 320px;
+}
+
+.top {
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: sans-serif;
+  color: #fff;
+  background: lightgray;
+  border-radius: 50px;
+
+}
+
+.top:hover {
+  background-color: maroon;
+}
+
+
+.italic {
+  font-style: italic;
+  color: firebrick;
+}
+
+#research .terms {
+  margin-bottom: 10px;
+}
+
+#research .terms-nested {
+  margin-top: 5px;
+  width: 80%;
+}
+
+#research .sidebar {
+  position: relative;
+  float: right;
+  width: 21%;
+  margin-top: -275px;
+  border: solid 0.5px darkslateblue;
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+  padding: 0px 10px;
+}
+
+#research .sidebar h4 {
+  margin-top: 5px;
+}
+
+#research .margin-top {
+  margin-top: 40px;
+}
+
+#resources img {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: solid black 1px;
+}
+
+#resources .sidebar {
+  position: relative;
+  float: right;
+  width: 26%;
+  margin-top: -115px;
+  border: solid 0.5px darkslateblue;
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+  padding: 0px 10px;
+}
+
+#resources .sidebar h4 {
+  margin-top: 5px;
+}
+
+.request {
+  width: 70%;
+}
+
+#libraries .terms {
+  margin-bottom: 10px;
+}
+
+#libraries .terms-nested {
+  margin-top: 5px;
+}
+
+#libraries .sidebar {
+  position: relative;
+  float: right;
+  width: 20%;
+  margin-top: -20px;
+  border: solid 0.5px darkslateblue;
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+  padding: 0px 10px;
+}
+
+#libraries .sidebar h4 {
+  margin-top: 5px;
+}
+
+#libraries ul {
+  width: 82%;
+}
+
+#libraries ol li {
+  margin-top: 5px;
+  color: firebrick;
+}
+
+#internet .terms {
+  margin-bottom: 5px;
+  color: firebrick;
+}
+
+#internet ul li {
+  margin-bottom: 15px;
+}
+
+#internet ul li a {
+  text-decoration: none;
+  font-style: italic;
+  color: firebrick;
+  font-weight: bold;
+}
+
+#internet ul li a:hover {
+  color: navy;
+  text-decoration: underline;
+}
+
+#internet .terms-nested {
+  margin-top: 5px;
+}
+
+#internet .sidebar {
+  position: relative;
+  float: right;
+  width: 30%;
+  margin-top: -255px;
+  border: solid 0.5px darkslateblue;
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+  padding: 0px 10px;
+}
+
+#internet .sidebar h4 {
+  margin-top: 5px;
+}
+
+#internet ul {
+  width: 75%;
+}
+
+/* Moving HTML style tags to here */
+
+#started .indi {
+  margin-top: 40px;
+}
+
+#research .indi2 {
+  text-align: center;
+  color: firebrick;
+}
+
+#research .indi3 {
+  margin-left: 95px;
+}
+
+#research .width {
+  width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END */
