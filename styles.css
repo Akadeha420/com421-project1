@@ -104,10 +104,19 @@ span {
 
 /* For Home Page */
 
+.index {
+  width: 1000px;
+  left: 15%;
+  position: relative;
+  text-align: justify;
+}
+
 .index p {
   margin: 25px 100px;
 }
 
+
+/* For Data Format */
 
 #analysis ol li {
   margin-bottom: 10px;
@@ -121,9 +130,19 @@ span {
   margin-bottom: 10px;
 }
 
-/* For Data Format */
 #intro {
   height: 185px;
+  width: 1000px;
+  left: 15%;
+  position: relative;
+  text-align: justify;
+}
+
+#section {
+  width: 1000px;
+  left: 15%;
+  position: relative;
+  text-align: justify;
 }
 
 #intro .sidebar {
