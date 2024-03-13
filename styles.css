@@ -44,7 +44,7 @@ h1 {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Source Sans Pro", "Open Sans", sans-serif
 }
 
 section {
@@ -67,6 +67,41 @@ h2 {
   color: navy;
 }
 
+img {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: solid black 1px;
+}
+
+a {
+  color: #00599c;
+}
+
+span {
+  font-family: source sans pro;
+  font-size: 10px !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  display: inline-block;
+  color: #00599c;
+  margin-left: 5px;
+  padding: 2px 5px 0;
+  border-radius: 2px;
+  border: 1px solid #00599c;
+  text-align: center;
+  vertical-align: revert;
+  background: transparent;
+  position: relative;
+  top: -2px;
+}
+
+.add_bold {
+  font-weight: bold;
+}
+
 /* For Home Page */
 
 .index p {
@@ -74,13 +109,99 @@ h2 {
 }
 
 
+#analysis ol li {
+  margin-bottom: 10px;
+}
+
+#descriptive ol li {
+  margin-bottom: 10px;
+}
+
+#inferential ol li {
+  margin-bottom: 10px;
+}
 
 /* For Data Format */
+#intro {
+  height: 185px;
+}
 
+#intro .sidebar {
+  margin-top: 20px;
+  width: 45%;
+  float: left;
+}
 
+.sidebar2 {
+  margin-top: 20px;
+  width: 52%;
+  float: right;
+  border-left: navy 1px solid;
+  padding-left: 10px;
+}
 
+#intro .sidebar p {
+  color: firebrick;
+}
 
+.sidebar2 p {
+  color: firebrick;
+}
 
+#intro .sidebar li {
+  margin-bottom: 5px;
+}
+
+.sidebar2 li {
+  margin-bottom: 5px;
+}
+
+.lesson {
+  margin-left: 165px;
+
+}
+
+.lesson li {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: firebrick;
+}
+
+#analysis .sidebar {
+  width: 30%;
+  float: right;
+  border: solid 0.5px darkslateblue;
+  padding: 0px 10px;
+  margin-top: 20px;
+}
+
+#analysis .add_width {
+  width: 60%;
+}
+
+#descriptive .sidebar {
+  width: 30%;
+  float: right;
+  border: solid 0.5px darkslateblue;
+  padding: 0px 10px;
+  margin-top: 20px;
+}
+
+#descriptive .add_width {
+  width: 65%;
+}
+
+#inferential .sidebar {
+  width: 30%;
+  float: right;
+  border: solid 0.5px darkslateblue;
+  padding: 0px 10px;
+  margin-top: -70px;
+}
+
+#inferential .add_width {
+  width: 65%;
+}
 
 
 /* For realisitic Research */
@@ -109,6 +230,7 @@ h2 {
   margin-top: 40px;
   height: 300px;
   margin-left: 50px;
+  border: 0px;
 }
 
 
@@ -125,6 +247,7 @@ h2 {
   float: right;
   width: 48%;
   margin-top: -330px;
+  border: 0px;
   height: 320px;
 }
 
@@ -272,6 +395,22 @@ h2 {
 
 #internet .sidebar h4 {
   margin-top: 5px;
+}
+
+#resources .sidebar p {
+  color: black;
+}
+
+#libraries .sidebar p {
+  color: black;
+}
+
+#research .sidebar p {
+  color: black;
+}
+
+#internet .sidebar p {
+  color: black;
 }
 
 #internet ul {
