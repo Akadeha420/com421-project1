@@ -79,7 +79,7 @@ a {
 }
 
 span {
-  font-family: source sans pro;
+  font-family: "source sans pro";
   font-size: 10px !important;
   text-transform: uppercase !important;
   text-decoration: none !important;
